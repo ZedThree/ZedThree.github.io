@@ -1,0 +1,9 @@
+name: Fusion by Peter
+url: http://fusionplasma.co.uk
+description: my little presence on the web
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+pygments: true
+
+exclude: ['README.md']
