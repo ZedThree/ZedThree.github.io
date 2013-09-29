@@ -1,5 +1,6 @@
 name: Fusion by Peter
-url: http://fusionplasma.co.uk
+baseurl: http://fusionplasma.co.uk
+# baseurl: http://localhost:4000
 description: my little presence on the web
 
 permalink: /:year/:month/:day/:title/

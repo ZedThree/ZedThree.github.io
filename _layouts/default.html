@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" href="/assets/css/core.css" media="screen"/>
-    <link rel="stylesheet" href="/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="/assets/css/pygment_trac.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/core.css" media="screen"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pygment_trac.css"/>
 
-    <script type="text/javascript" src="/assets/js/modernizr.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/headsmart.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/headsmart.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('#main_content').headsmart()
@@ -27,7 +27,7 @@
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1><a href="{{ site.url }}">{{ site.name }}</a></h1>
+            <h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
             <h2>{{ site.description }}</h2>
           </span>
           <span class="left-tail"></span>
