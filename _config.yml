@@ -5,6 +5,7 @@ description: my little presence on the web
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
-pygments: true
+highlighter: rouge
+# pygments: true
 
 exclude: ['README.md']
