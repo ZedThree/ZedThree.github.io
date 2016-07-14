@@ -9,3 +9,5 @@ highlighter: rouge
 # pygments: true
 
 exclude: ['README.md']
+
+gems: [jekyll-gist, jekyll-paginate]
